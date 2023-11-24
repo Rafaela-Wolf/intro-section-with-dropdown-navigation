@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <meta name="description" content="Intro section with dropdown navigation">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Intro section with dropdown navigation</title>
+
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsive.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <img src="src/images/logo.svg" alt="Snap log">
+    <nav>
+
+      <div class="overlay"></div>
+
+      <ul class="main-menu">
+        <img class="menu-close" id="menu-close" src="src/images/icon-close-menu.svg" alt="Icon close menu">
+        <li>
+          Features <img class="arrow" src="src/images/icon-arrow-down.svg" alt="Icon arrow down">
+          <ul class="sub-menu">
+            <li><a href="#"><img class="icon" src="src/images/icon-todo.svg" alt="Icon Todo">Todo List</a></li>
+            <li><a href="#"><img class="icon" src="src/images/icon-calendar.svg" alt="Icon Calendar">Calendar</a></li>
+            <li><a href="#"><img class="icon" src="src/images/icon-reminders.svg" alt="Icon Reminders">Reminders</a>
+            </li>
+            <li><a href="#"><img class="icon" src="src/images/icon-planning.svg" alt="Icon Planning">Planning</a></li>
+          </ul>
+        </li>
+
+        <li>
+          Compay <img class="arrow" src="src/images/icon-arrow-down.svg" alt="Icon arrow down">
+          <ul class="sub-menu company">
+            <li><a href="#">History</a></li>
+            <li><a href="#">Our team</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </li>
+
+        <li>
+          Careears
+        </li>
+
+        <li>
+          About
+        </li>
+
+        <div class="register-mobile">
+          <button>Login</button>
+          <button class="btn-register">Register</button>
+        </div>
+
+      </ul>
+    </nav>
+
+    <div class="register-desktop">
+      <button>Login</button>
+      <button class="btn-register">Register</button>
+    </div>
+
+    <img class="menu-hamburger" id="menu-hamburger" src="src/images/icon-menu.svg" alt="Icon menu hamburger">
+
+  </header>
+
+  <main>
+    <div class="informations">
+      <h1>Make remote work</h1>
+
+      <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch
+        productivity soar.</p>
+
+      <a href="#" class="learn-more">Learn more</a>
+
+      <ul class="logos">
+        <li>
+          <img src="src/images/client-databiz.svg" alt="Client Databiz Logo">
+        </li>
+
+        <li>
+          <img src="src/images/client-audiophile.svg" alt="Client Audiophile Logo">
+        </li>
+
+        <li>
+          <img src="src/images/client-meet.svg" alt="Client Meet Logo">
+        </li>
+
+        <li>
+          <img src="src/images/client-maker.svg" alt="Client Maker Logo">
+        </li>
+      </ul>
+    </div>
+
+    <picture>
+      <source media="(max-width: 425px)" srcset="src/images/image-hero-mobile.png">
+      <img class="hero-img" src="src/images/image-hero-desktop.png" alt="Image hero desktop">
+    </picture>
+  </main>
+
+  <script src="src/js/index.js"></script>
+
+</body>
+
+</html>
