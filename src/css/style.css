@@ -4,7 +4,8 @@ body {
     font-family: 'Epilogue', sans-serif;
     background-color: hsl(0, 0%, 98%);
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 20px;
+    overflow: hidden;
 }
 
 header {
@@ -89,18 +90,21 @@ header .main-menu li:hover .sub-menu.company {
     padding: 13px 22px;
     cursor: pointer;
     border-radius: 14px;
+    font-family: 'Epilogue', sans-serif;
 }
 
 .register-desktop button:hover, .register-mobile button:hover {
-    color: #151515;
+    color: #ffffff;
 }
 
 .register .btn-register, .register-mobile .btn-register {
     border: 1.5px solid hsl(0, 0%, 41%);
 }
 
-.register-desktop .btn-register:hover, .register-mobile .btn-register:hover {
-    border: 1.5px solid #151515;
+.register-desktop .btn-register:hover, .register-mobile .btn-register:hover,
+.register-desktop .btn-login:hover, .register-mobile .btn-login:hover {
+    background-color: #151515;
+    transition: 0.3s ease-in-out;
 }
 
 .menu-hamburger {

@@ -130,3 +130,25 @@
         max-width: 100%;
     }
 }
+
+@media(max-width: 374px) {
+    main .informations {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+    main .informations h1 {
+        font-size: 24px;
+    }
+
+    main .informations p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 293px) {
+    main .informations p {
+        width: 250px;
+    }
+}
